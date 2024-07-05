@@ -1,4 +1,4 @@
-// example of dtable and a local macro
+// example of dtable, etable and a local macro in a regression
 // ADH 04/07/24
 * load the data
 sysuse auto, replace
