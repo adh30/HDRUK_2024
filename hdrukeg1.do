@@ -9,6 +9,6 @@ dtable price weight mpg i.rep78, by(foreign) export(table1.docx, replace)
 * define the predictors - you dont need to use "" but it is more readable if you do
 local predictors "mpg weight turn"
 * run the model
-reg price `predictors'
+reg price `predictors' // NB the `' combination of quotes around the local 
 * using etable to produce a regression table 
 etable, replay cstat(_r_b, nformat(%4.2f)) cstat(_r_ci, cidelimiter(,) nformat(%6.2f)) export(table2.docx, replace)
