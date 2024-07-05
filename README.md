@@ -1,2 +1,2 @@
 # HDRUK
-Stata code
+Stata code for HDRUK interns
